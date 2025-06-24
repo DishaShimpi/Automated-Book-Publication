@@ -34,3 +34,16 @@ Additionally, install Playwright browser support:
 ```bash
 playwright install
 ```
+
+🔤 Font Setup
+I have used a Unicode-compatible TTF font to render clean multilingual text in PDFs.
+
+Download the font ukij-tuz Basma or any .ttf font that supports extended characters
+📥 Example font download
+
+Place the font inside a fonts/ directory:
+```bash
+autobook/
+├── fonts/
+│   └── ukij.ttf
+```
