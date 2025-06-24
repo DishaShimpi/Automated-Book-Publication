@@ -30,6 +30,6 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 
-### 🐍 Python Version
+Additionally, install Playwright browser support:
 ```bash
-Python >= 3.10
+playwright install
