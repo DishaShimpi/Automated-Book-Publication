@@ -29,7 +29,8 @@ You can modify the `base_url` in `main.py` to iterate through multiple chapters.
 Install all dependencies using:
 ```bash
 pip install -r requirements.txt
-
+```
 Additionally, install Playwright browser support:
 ```bash
 playwright install
+```
