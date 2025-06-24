@@ -2,3 +2,8 @@ playwright
 openai
 chromadb
 uuid
+beautifulsoup4
+requests
+fpdf
+transformers
+torch
