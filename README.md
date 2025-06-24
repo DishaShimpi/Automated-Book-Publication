@@ -35,13 +35,12 @@ Additionally, install Playwright browser support:
 playwright install
 ```
 
-🔤 Font Setup
+## 🔤 Font Setup
 I have used a Unicode-compatible TTF font to render clean multilingual text in PDFs.
 
-Download the font ukij-tuz Basma or any .ttf font that supports extended characters
-📥 Example font download
-
-Place the font inside a fonts/ directory:
+  1. Download the font ukij-tuz Basma or any .ttf font that supports extended characters
+    📥 Example font download
+  2. Place the font inside a fonts/ directory:
 ```bash
 autobook/
 ├── fonts/
@@ -49,7 +48,7 @@ autobook/
 ```
 
 
-▶️ How to Run
+## ▶️ How to Run
 ```bash
 python main.py
 ```
@@ -72,7 +71,7 @@ screenshots/chapter_X/chapter.png
 ```
 You’ll also get the final Chapter ID from ChromaDB.
 
-💾 Chapter Retrieval (Optional)
+## 💾 Chapter Retrieval (Optional)
 You can retrieve previously saved chapters by running:
 ```bash
 python view_chapter.py
