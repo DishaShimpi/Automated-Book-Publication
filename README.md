@@ -27,8 +27,9 @@ You can modify the `base_url` in `main.py` to iterate through multiple chapters.
 
 ## 🛠️ Requirements
 Install all dependencies using:
-
+```bash
 pip install -r requirements.txt
+
 ### 🐍 Python Version
 ```bash
 Python >= 3.10
