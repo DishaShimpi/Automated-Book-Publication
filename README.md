@@ -47,3 +47,34 @@ autobook/
 ├── fonts/
 │   └── ukij.ttf
 ```
+
+
+▶️ How to Run
+```bash
+python main.py
+```
+
+Each chapter will:
+
+Be scraped and saved as a screenshot
+
+Be rewritten by the AI
+
+Ask you for human edits (yes/no)
+
+Be saved into ChromaDB
+
+Exported to:
+```bash
+chapter_X.txt
+pdfs/chapter_X.pdf
+screenshots/chapter_X/chapter.png
+```
+You’ll also get the final Chapter ID from ChromaDB.
+
+💾 Chapter Retrieval (Optional)
+You can retrieve previously saved chapters by running:
+```bash
+python view_chapter.py
+```
+Paste the Chapter ID when prompted to view the versioned content.
