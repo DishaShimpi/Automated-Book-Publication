@@ -56,9 +56,13 @@ python main.py
 Each chapter will:
 
   Be scraped and saved as a screenshot
+  
   Be rewritten by the AI
+  
   Ask you for human edits (yes/no)
+  
   Be saved into ChromaDB
+  
   Exported to:
 ```bash
 chapter_X.txt
